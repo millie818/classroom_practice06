@@ -1,3 +1,216 @@
 body {
   font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #626262;
 }
+
+/* headerここから */
+
+header {
+  width: 1062px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 99px;
+}
+
+.header_top_container {
+  display: flex;
+  justify-content: space-between;margin-bottom: 75px;
+}
+
+header a.site_logo {
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.header_nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 572px;
+  margin-top: 7px;
+}
+
+.header_nav ul li a {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+}
+
+/* --- headerここまで --- */
+
+/* sectionここから */
+section {
+  width: 899px;
+  margin: 0 auto;
+}
+
+section p.section_tag {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-left: 1px;
+  margin-bottom: 28px;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 41px;
+}
+
+section p.title_text {
+  line-height: 1.7;
+  margin-bottom: 55px;
+}
+
+.leave_comment_btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin-left: 1px;
+  margin-bottom: 135px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 135px;
+}
+
+.last_posts {
+  margin-bottom: 168px;
+}
+
+.post {
+  width: 420px;
+}
+
+.post img {
+  margin-bottom: 31px;
+}
+
+.post p.post_tag {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.post a.post_title {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  color: #626262;
+  margin-left: 1px;
+  margin-bottom: 41px;
+}
+
+.post p.post_text {
+  line-height: 1.7;
+}
+
+.sign_up_nl {
+  margin-top: -10px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background: #f0f0f0;
+  margin-bottom: 103px;
+}
+
+.sign_up_nl label {
+  display: block;
+  font-size: 30px;
+  letter-spacing: .025em;
+  text-align: center;
+}
+
+.email_box {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 69px auto 0 auto;
+  border-bottom: 1px solid #000;
+}
+
+.email_box input {
+  border: none;
+  background: transparent;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.email_box input.email {
+  width: 367px;
+  padding-left: 3px;
+}
+
+.email_box input.submit_btn {
+  cursor: pointer;
+  display: block;
+  width: 32px;
+  height: auto;
+  text-indent: -9999px;
+  background: url("../images/send-icon.png") no-repeat center;
+}
+
+.load_more_btn {
+  display: block;
+  width: 164px;
+  height: 60px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 20px;
+  color: #626262;
+  text-align: center;
+  line-height: 58px;
+  border: 1px solid #626262;
+}
+/* --- sectionここまで --- */
+
+/* footerここから */
+footer {
+  margin-top: 1370px;
+  background: #f0f0f0;
+  padding-top: 40px;
+  padding-bottom: 46px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer i {
+  color: #626262;
+}
+
+.footer_nav {
+  width: 199px;
+  margin-left: 150px;
+}
+
+.footer_sns_icons {
+  width: 139px;
+  margin-right: 71px;
+}
+/* --- footerここまで --- */
