@@ -40,6 +40,11 @@ header a.site_logo {
   text-transform: uppercase;
 }
 
+.header_nav ul li a:hover {
+  opacity: .6;
+  transition: all .3s;
+}
+
 /* --- headerここまで --- */
 
 /* sectionここから */
@@ -78,6 +83,10 @@ section p.title_text {
   margin-bottom: 135px;
 }
 
+.leave_comment_btn:hover {
+  text-decoration: underline;
+}
+
 .posts {
   display: flex;
   justify-content: space-between;
@@ -112,6 +121,11 @@ section p.title_text {
   color: #626262;
   margin-left: 1px;
   margin-bottom: 41px;
+}
+
+.post a:hover {
+  opacity: .6;
+  transition: all .3s;
 }
 
 .post p.post_text {
@@ -174,6 +188,11 @@ section p.title_text {
   line-height: 58px;
   border: 1px solid #626262;
 }
+
+.load_more_btn:hover {
+  background: #f3f3f3;
+  transition: all .3s;
+}
 /* --- sectionここまで --- */
 
 /* footerここから */
@@ -198,6 +217,11 @@ footer ul {
 footer a {
   text-decoration: none;
   color: #000;
+}
+
+footer a:hover {
+  opacity: .6;
+  transition: all .3s;
 }
 
 footer i {

@@ -1,0 +1,146 @@
+@import url(fullwidth.css);
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  width: 1061px;
+  margin: 0 auto;
+}
+
+a:hover {
+  opacity: .6;
+  transition: all .3s;
+}
+
+/* main_postここから */
+
+.contents .main_post {
+  width: 661px;
+  padding-left: 81px;
+}
+
+.main_post .title_text {
+  margin-bottom: 87px;
+}
+
+.contents .main_post img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.main_post blockquote {
+  width: 661px;
+}
+
+/* main_postここまで */
+
+/* sidebarここから */
+
+aside.sidebar {
+  width: 279px;
+}
+
+.sidebar img.profile_img {
+  padding-left: 7px;
+  margin-bottom: 29px;
+} 
+
+.sidebar h2 {
+  font-size: 24px;
+  padding-left: 2px;
+  margin-bottom: 21px;
+}
+
+.sidebar p.pofile_text {
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 23px;
+}
+
+.sidebar_sns_icons ul {
+  display: flex;
+  justify-content: space-between;
+  width: 76px;
+}
+
+.sidebar_sns_icons ul li a {
+  font-size: 17px;
+  color: #b4ad9e;
+}
+
+.top_posts {
+  margin-top: 75px;
+}
+
+.top_posts h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  padding-left: 6px;
+  margin-bottom: 36px;
+}
+
+.sidebar .top_posts ul li{
+  position: relative;
+  vertical-align: middle;
+  color: #b4ad9e;
+  margin-bottom: 30px;
+}
+
+.top_posts ul li::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #b4ad9e;
+  border-radius: 50%;
+  margin-right: 21px;
+  margin-left: 8px;
+}
+
+.top_posts ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #626262;
+}
+
+.top_posts ul li span {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin-top: 14px;
+  margin-left: 35px;
+}
+
+.banner_box {
+  position: relative;
+  margin-top: 56px;
+}
+
+.banner_img {
+  margin-left: 8px;
+}
+
+.banner_size {
+  position: absolute;
+  top: 106px;
+  left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 48px;
+  color: #fff;
+}
+
+.banner_box h3 {
+  position: absolute;
+  top: 161px;
+  left: 86px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* sidebarここまで */

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Single Post Sidebar</title>
+  <title>Single Post Full Width</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/sidebar.css">
   <!-- フォント -->
@@ -14,8 +14,154 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/c09da6029c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <header class="site_header">
+    <div class="header_top_container">
+      <h1><a class="site_logo" href="">minimø</a></h1>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="">lifestyle</a></li>
+          <li><a href="">photodiary</a></li>
+          <li><a href="">music</a></li>
+          <li><a href="">travel</a></li>
+        </ul>
+      </nav><!-- header_nav -->
+    </div><!-- header_top_container -->
+    <img src="images/main-img.png" alt="main image">
+  </header>
+
+  <main>
+    <section class="contents">
+      <div class="main_post">
+        <p class="section_tag">photodiary</p>
+        <h2>The perfect weekend getaway</h2>
+        <p class="title_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,</span> totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <img src="images/full-img01.png" alt="">
+        <img src="images/full-img02.png" alt="">
+        <img src="images/full-img03.png" alt="">
+        <blockquote>“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.” </blockquote>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <div class="share_sns_icons">
+          <p>share</p>
+          <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href=""><i class="fab fa-tumblr"></i></a></li>
+            <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+          </ul>
+        </div><!-- share_sns_icons -->
+      </div><!-- main_post -->
+      <aside class="sidebar">
+        <img class="profile_img" src="images/sidebar-profile-img.png" alt="profile image">
+        <h2>About me</h2>
+        <p class="pofile_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        <div class="sidebar_sns_icons">
+          <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+          </ul>
+        </div><!-- sidebar_sns_icons -->
+        <div class="top_posts">
+          <h3>Top posts</h3>
+          <ul>
+            <li><a href="">A day exploring the Alps</a><span>24 comments</span></li>
+            <li><a href="">American dream</a><span>19 comments</span></li>
+            <li><a href="">Cold winter days</a><span>15 comments</span></li>
+          </ul>
+        </div><!-- top_posts -->
+        <div class="banner_box">
+          <a href=""><img class="banner_img" src="images/sidebar-bannar-img.png" alt="banner post"></a>
+          <p class="banner_size">250x250</p>
+          <h3>banner spot</h3>
+        </div><!-- banner_box -->
+      </aside><!-- sidebar -->
+    </section><!-- contents -->
+
+
+    <section class="suggest">
+      <div class="container">
+        <h2 class="mini_title">you may also like</h2>
+        <ul>
+          <li>
+            <a href=""><img src="images/suggest-img01.png" alt="">
+              </img>
+            </a>
+            <h3><a>winter days</a></h3>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/suggest-img02.png" alt="">
+            </img>
+            </a>
+            <h3><a>A day exploring the Alps</a></h3>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/suggest-img03.png" alt="">
+              </img>
+            </a>
+            <h3><a>American dream</a></h3>
+          </li>
+        </ul>
+      </div><!-- container -->
+    </section><!-- suggest -->
+
+    <section class="comment">
+      <h2 class="mini_title">2 comments</h2>
+      <dl>
+        <dt><img src="images/user-icon01.png" alt=""></dt>
+        <dd>
+          <h3>John Doe</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!</p>
+          <a href="">Reply</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="user02">JD</dt>
+        <dd>
+          <h3>Jane Doe</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+          <a href="">Reply</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="new_user">JD</dt>
+        <dd>
+          <input type="text" placeholder="Join the discussion" size="100%">
+        </dd>
+      </dl>
+      <div class="connect_sns_icons">
+        <p>Connected with</p>
+        <ul>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+      </div><!-- connect_sns_icons -->
+    </section>
+  </main>
+
+  <footer class="fullwidth_page_footer">
+    <div class="footer_container">
+      <nav class="footer_nav">
+        <ul>
+          <li><a href="">Terms and conditions</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+      </nav><!-- footer_nav -->
+      <div class="footer_sns_icons">
+        <ul>
+          <li><a href="">Follow</a></li>
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div><!-- footer_sns_icons -->
+    </div><!-- footer_container -->
+  </footer>
 </body>
 </html>
